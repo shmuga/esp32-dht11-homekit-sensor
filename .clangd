@@ -1,0 +1,4 @@
+CompileFlags:                     # Tweak the parse settings
+  Remove: [-fno-tree-switch-conversion, -fstrict-volatile-bitfields, -mlongcalls]
+  Add: [-mlong-calls]
+  CompilationDatabase: .
